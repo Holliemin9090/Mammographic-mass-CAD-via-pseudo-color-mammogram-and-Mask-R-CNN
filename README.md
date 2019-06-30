@@ -19,8 +19,6 @@ The proposed method transforms conventional grayscale mammograms into pseudo-col
 
 The pseudo-color mammograms are then used as inputs for the Mask R-CNN. The Mask R-CNN is trained to perform simultaneous detection and segmentation of breast masses. We notice that using pseudo-color mammograms improved the detection and segmentation performance of Mask R-CNN when compared with using conventional grayscale mammograms.
 
-* Details on multi-scale morphological sifting (MMS): [Multi-scale sifting for mammographic mass detection and segmentation](https://iopscience.iop.org/article/10.1088/2057-1976/aafc07)
-
 
 ## How to use the code:
 
@@ -36,6 +34,8 @@ The main script is “Preprocess_mammo_mask.py”. The normalization function is in 
 ### Pseudo-color image generation
 
 This step is to generate two output images by applying a 2 scale morphological sifting (MS) on the mammograms. The grayscale mammogram is put in the R (red) channel, the output from the smaller scale MS is put in the G (green) channel and the output from the larger scale is put in the B (blue) channel.
+
+* Details on multi-scale morphological sifting (MMS): [Multi-scale sifting for mammographic mass detection and segmentation](https://iopscience.iop.org/article/10.1088/2057-1976/aafc07)
 
 
 
