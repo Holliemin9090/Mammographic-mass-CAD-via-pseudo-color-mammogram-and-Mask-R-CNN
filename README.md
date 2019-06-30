@@ -33,6 +33,11 @@ This step is to normalize the raw mammograms and pad them into a square shape.
 The main script is “Preprocess_mammo_mask.py”. The normalization function is in module “Preprocess_mammo.py” and the padding function is in “utility.py”.
 
 
+### Pseudo-color image generation
+
+This step is to generate two output images by applying a 2 scale morphological sifting (MS) on the mammograms. The grayscale mammogram is put in the R (red) channel, the output from the smaller scale MS is put in the G (green) channel and the output from the larger scale is put in the B (blue) channel.
+
+
 
 
 
