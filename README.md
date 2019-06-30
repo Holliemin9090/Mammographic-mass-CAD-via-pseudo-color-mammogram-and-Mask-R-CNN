@@ -43,6 +43,8 @@ The main script is "Pseudo_color_image_generation.m".
 
 We use transfer learning with Mask R-CNN due to the size limitation of the dataset used. The pre-trained model "mask_rcnn_balloon.h5" is used.
 
+Pre-trained weights : [mask_rcnn_balloon.h5](https://github.com/matterport/Mask_RCNN/releases)
+
 
 
 
