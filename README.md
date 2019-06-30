@@ -37,6 +37,11 @@ This step is to generate two output images by applying a 2 scale morphological s
 
 * Details on multi-scale morphological sifting (MMS): [Multi-scale sifting for mammographic mass detection and segmentation](https://iopscience.iop.org/article/10.1088/2057-1976/aafc07)
 
+The main script is "Pseudo_color_image_generation.m".
+
+### Applying Mask R-CNN
+
+We use transfer learning with Mask R-CNN due to the size limitation of the dataset used. The pre-trained model "mask_rcnn_balloon.h5" is used.
 
 
 

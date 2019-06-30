@@ -2,7 +2,7 @@
 % channal
 clc,clear,close all;
 tic
-% addpath(genpath('C:\HangMin\work\Mammographic_CAD\INbreast_Algorithm\Segmentation_INbreast\'));
+
 image_path = 'scans\preprocessed_image\';
 image_save_path = 'scans\pseudo_color_image\';
 
