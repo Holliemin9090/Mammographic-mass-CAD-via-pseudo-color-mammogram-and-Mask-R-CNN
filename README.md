@@ -64,9 +64,20 @@ python mamo_CAD.py train --weights=mask_rcnn_balloon.h5
 
 ```
 python mamo_CAD.py segment --weights=logs/mask_rcnn_mamogram_weights.h5 --image=scans/pseudo_color_image/
+
+
 ```
+### Visualize the detection/segmentation results
+
+Main script is  "overlay_detection_segmentation_results.m" which calculate the true positive rate (TPR), the false positive rate (FPR) and the Dice similarity index (DSI) of the segmentation.
 
 
+## Dependencies
+
+The proposed method is implemented in MATLAB R2018a and Python 3.6.
+
+
+## License
 
 
 
