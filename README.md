@@ -77,10 +77,6 @@ The main script is "overlay_detection_segmentation_results.m" which calculates t
 The proposed method is implemented in MATLAB R2018a and Python 3.6.
 
 
-## License
-
-
-
 
 
 
