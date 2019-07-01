@@ -45,7 +45,7 @@ Function "Morphological_sifter.m" is to perform MMS on the input image.
 
 ### Applying Mask R-CNN
 
-We use transfer learning with Mask R-CNN due to the size limitation of the dataset used. The pre-trained model "mask_rcnn_balloon.h5" is used.
+We use transfer learning with Mask R-CNN due to the size limitation of the dataset used. The pre-trained model "mask_rcnn_balloon.h5" needs to be downloaded.
 
 Pre-trained weights : [mask_rcnn_balloon.h5](https://github.com/matterport/Mask_RCNN/releases)
 
@@ -53,7 +53,17 @@ The [Mask_RCNN code](https://github.com/matterport/Mask_RCNN) needs to be downlo
 
 The main script for training and testing is "mamo_CAD.py". The configuration has been specified in this file. We used 5-fold cross validation in our paper, and [one of the trained models](https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN/releases/tag/v1) is uploaded as an example.
 		
+* For training, run:
 
+```
+python mamo_CAD.py train --weights=mask_rcnn_balloon.h5
+```
+
+* For testing, run:
+
+```
+python mamo_CAD.py segment --weights=logs/mask_rcnn_mamogram_weights.h5 --image=scans/pseudo_color_image/
+```
 
 
 
