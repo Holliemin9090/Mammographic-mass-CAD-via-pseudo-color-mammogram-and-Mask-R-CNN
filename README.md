@@ -51,7 +51,7 @@ Pre-trained weights : [mask_rcnn_balloon.h5](https://github.com/matterport/Mask_
 
 The [Mask_RCNN code](https://github.com/matterport/Mask_RCNN) needs to be downloaded and put in the "Mask_r_cnn" folder.
 
-The main script for training and testing is "mamo_CAD.py". The configuration has been specified in this file. We used 5-fold cross validation in our paper, and [one of the trained models](https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN/releases/tag/v1) is uploaded as an example.
+The main script for training and testing is "mamo_CAD.py". The configuration has been specified in this file. We used 5-fold cross validation in our paper, and one of the trained models is uploaded as an example under the name of ["mask_rcnn_mamogram_weights.h5"]((https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN/releases/tag/v1)).
 		
 * For training, run:
 
