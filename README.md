@@ -6,7 +6,7 @@ Algorithm for simultaneous detection and segmentation of mammographic masses via
 Hang Min, Devin Wilson, Yinhuang Huang, Samuel Kelly, Stuart Crozier, Andrew P Bradley, Shekhar S. Chandra
 ```
 
-* Preprint available on Arxiv.org: 
+* Preprint available on Arxiv.org: http://arxiv.org/abs/1906.12118
 * Code: [GitHub Repository – 
 https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN]
 * Mask R-CNN code: [GitHub Repository – 
@@ -38,6 +38,9 @@ This step is to generate two output images by applying a 2 scale morphological s
 * Details on multi-scale morphological sifting (MMS): [Multi-scale sifting for mammographic mass detection and segmentation](https://iopscience.iop.org/article/10.1088/2057-1976/aafc07)
 
 The main script is "Pseudo_color_image_generation.m".
+
+Function "Morphological_filter_bank.m" is to generated the magnitudes of the linear structuring elements.
+Function "Morphological_sifter.m" is to perform MMS on the input image. 
 
 ### Applying Mask R-CNN
 
