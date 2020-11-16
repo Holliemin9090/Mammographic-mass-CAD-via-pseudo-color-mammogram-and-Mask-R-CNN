@@ -9,7 +9,7 @@ Licensed under the MIT License (see LICENSE for details)
 Written by Waleed Abdulla
 
 ------------------------------------------------------------
-Adapted by Sam Kelly, Hang Min and Devin Wilson for mammographic mass detection and segmentation.
+Adapted for mammographic mass detection and segmentation.
 
 
 """
