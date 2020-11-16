@@ -4,7 +4,7 @@
 Algorithm for simultaneous detection and segmentation of mammographic masses via pseudo-color mammograms and Mask R-CNN.
 
 
-* DOI:(10.1109/ISBI45749.2020.9098732)
+* [DOI](10.1109/ISBI45749.2020.9098732)
 * Code: [GitHub Repository – 
 https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN]
 * Mask R-CNN code: [GitHub Repository – 
