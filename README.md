@@ -2,14 +2,12 @@
 ![Mass detection and segmentation](scans/seg_mask_overlay/22580192_5530d5782fc89dd7_MG_R_CC_ANON.png)
 
 Algorithm for simultaneous detection and segmentation of mammographic masses via pseudo-color mammograms and Mask R-CNN.
-```
-Hang Min, Devin Wilson, Yinhuang Huang, Samuel Kelly, Stuart Crozier, Andrew P Bradley, Shekhar S. Chandra
-```
 
-* Preprint available on Arxiv.org: http://arxiv.org/abs/1906.12118
-* Code: [GitHub Repository ñ 
+
+* DOI:10.1109/ISBI45749.2020.9098732
+* Code: [GitHub Repository ‚Äì 
 https://github.com/Holliemin9090/Mammographic-mass-CAD-via-pseudo-color-mammogram-and-Mask-R-CNN]
-* Mask R-CNN code: [GitHub Repository ñ 
+* Mask R-CNN code: [GitHub Repository ‚Äì 
 https://github.com/matterport/Mask_RCNN]
 
 * Data: [INBreast dataset]( https://www.sciencedirect.com/science/article/pii/S107663321100451X)
@@ -30,7 +28,7 @@ The method consists of 3 steps: pre-processing, pseudo-color image generation an
 
 This step is to normalize the raw mammograms and pad them into a square shape.
 
-The main script is ìPreprocess_mammo_mask.pyî. The normalization function is in module ìPreprocess_mammo.pyî and the padding function is in ìutility.pyî.
+The main script is ‚ÄúPreprocess_mammo_mask.py‚Äù. The normalization function is in module ‚ÄúPreprocess_mammo.py‚Äù and the padding function is in ‚Äúutility.py‚Äù.
 
 
 ### Pseudo-color image generation
